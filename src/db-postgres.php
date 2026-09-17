@@ -60,7 +60,7 @@ try {
     }
     echo '</ul>';
 
-} catch (PDOException $e) {
+} catch (PDOException $e) { 
     echo '<p style="color:red">Erro ao conectar no PostgreSQL: ' . htmlspecialchars($e->getMessage()) . '</p>';
 }
 ?>

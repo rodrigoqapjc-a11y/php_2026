@@ -8,7 +8,7 @@ echo "<br>R$ ".number_format($valor,0,",",".");
 $nome= "Bete";
 echo "<br>nome = $nome";
 echo '<br>nome = $nome';
-$cor="green";
+$cor="blue";
 echo "<p style='color:$cor'>$nome</p>";
 $inteiro=(int)$valor;
 echo "<br>valor = $inteiro";
