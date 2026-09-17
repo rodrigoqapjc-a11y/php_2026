@@ -6,7 +6,7 @@
     <title>Forms</title>
 </head>
    <body>
-<h1>Forms</h1>
+<h1>Forms:</h1>
 <form method="post" action="recebe.php">
 <label for="login">Login</label>
 <input type="text" id="login" name="login"><br>
@@ -14,6 +14,7 @@
 <input type="password" id="senha" name="senha"><br>
 <label for="data">Data</label>
 <input type="date" id="data" name="data"><br>
+
 <h3>Linguagens para Back-End</h3>
 <input type="checkbox" name="html" value="HTML"> HTML <br>
 <input type="checkbox" name="sql" value="SQL"> SQL <br>
